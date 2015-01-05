@@ -66,7 +66,7 @@ function md_leaders_theme_settings_design(&$form, &$form_state) {
     $form['md_leaders_settings']['design']['design_skin']['skin_color'] = array(
         '#type'             => 'textfield',
         '#title'            => t('Skin Color'),
-        '#default_value' => theme_get_setting('skin_color','md_leaders') ? theme_get_setting('skin_color','md_leaders') : '#e95d70',
+        '#default_value' => theme_get_setting('skin_color','md_leaders') ? theme_get_setting('skin_color','md_leaders') : '#000000',
         '#attributes'       => array(
             'class' => array(
                 'form-colorpicker',

@@ -8,3 +8,4 @@ sites/*/files
 
 .htaccess
 
+sites/all/themes/*/.sass-cache
